@@ -70,16 +70,14 @@ video[poster] {
     margin:0;
     //line-height: 4.5rem;
     text-transform: uppercase;
-    @media screen and (max-width:720px){
-        font-size: 3.3rem;
-    }
+   
     &.m--line-1 {
         font-size:2rem;
     }
     &.m--line-2{
         position:relative;
         font-size: 3.5rem;
-        color: #f6225c;
+       
     }
     &.m--line-3{
         font-size: 2.7rem;
@@ -95,7 +93,6 @@ video[poster] {
     }
     &.m--middle-statement{
         margin-top:100px;
-        color:#f6225c;
         font-weight:bold;
     }
     &.m--bottom-hero {
@@ -103,6 +100,31 @@ video[poster] {
     }
     &.m--podcast-line-1{
         font-size:2rem;
+    }
+     @media screen and (max-width:720px){
+        font-size: 3.3rem;
+        &.m--line-1{
+         font-size:3.5rem;
+        }
+        &.m--line-2 {
+            font-size: 1.8rem;
+            line-height: 1rem;
+            left: 23px;
+        }
+        &.m--line-3{
+            font-size:3.6rem;
+           }
+        &.m--line-4{
+            font-size:3.6rem;
+           }
+        &.plus {
+            font-weight: bold;
+            position: absolute;
+            left: -2%;
+            top: 10%;
+            font-size: 5rem;
+            color: green;
+        }
     }
 }
 
@@ -137,10 +159,10 @@ video[poster] {
    @media only screen and (max-width:720px){
     &.m--mobile-hero{
         position: relative;
-        z-index:10;
-        width: 85%;
+        z-index: 10;
+        width: 90%;
         padding: 20px;
-        margin: 175px 0 50px 0;
+        margin: 34% 0 0 0;
     }
 }
 
@@ -158,6 +180,9 @@ video[poster] {
     .m--larger-panel-copy {
         font-size: 2rem;
         font-style: italic;
+        @media only screen and (max-width:720px){
+            font-size:1.3rem;
+        }
     }
     &_copy.mobile {
         @media only screen and (max-width:720px){
@@ -248,6 +273,12 @@ video[poster] {
 
 .primary {
     color: #f6225c;
+}
+.secondary {
+    color:#555555;
+}
+.tertiary {
+    color:green;
 }
 
 .bg-dark {

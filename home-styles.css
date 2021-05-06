@@ -106,7 +106,13 @@ footer.container {
 }
 .mobile-img.m--pray-sweat-learn-change {
   position: absolute;
+  height: 100vh;
   z-index: 1;
+  right: 0;
+}
+.mobile-img.m--pray-sweat-learn-change .ffd-hero-image-mobile {
+  position: relative;
+  height: 100%;
 }
 
 @media only screen and (max-width: 720px) {
@@ -119,14 +125,6 @@ footer.container {
   .content-row.custom {
     position: relative;
     background-image: none;
-  }
-
-  .ffd-hero-image-mobile {
-    display: block;
-    position: relative;
-    width: 100%;
-    z-index: 1;
-    right: 30px;
   }
 
   .mobile-img {
