@@ -111,7 +111,9 @@ footer.container {
 
 @media only screen and (max-width: 720px) {
   .responsive-content {
-    align-items: flex-end !important;
+    -webkit-box-align: end !important;
+        -ms-flex-align: end !important;
+            align-items: flex-end !important;
   }
 
   .content-row.custom {
@@ -122,7 +124,7 @@ footer.container {
   .ffd-hero-image-mobile {
     display: block;
     position: relative;
-    height: 100vh;
+    width: 100%;
     z-index: 1;
     right: 30px;
   }
@@ -144,4 +146,5 @@ footer.container {
 }
 .alternate-background {
   background-color: #e5e5e5;
-}/*# sourceMappingURL=home-styles.css.map */
+}
+/*# sourceMappingURL=home-styles.css.map */
