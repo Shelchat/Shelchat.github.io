@@ -80,11 +80,18 @@ footer {
 }
 
 .si-button {
-    width:100%;
+    width:98%;
     background: #9bc67e;
    // #7eb559
    //#88c162
    //#2f3e59
+
+   &.m--btn-ghost {
+       background:none;
+       border:1px solid #555555;
+       -webkit-border: 1px solid #555555;
+
+   }
 }
 
 .mobile-img {
