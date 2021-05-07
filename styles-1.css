@@ -146,15 +146,38 @@ video[poster] {
   text-transform: uppercase;
 }
 .join-now-header .m--line-2 {
-  font-size: 1.5rem;
-  color: #cdddc2;
+  font-size: 2.7rem;
+  text-transform: uppercase;
 }
 .join-now-header .m--line-3 {
   font-size: 1.5rem;
   font-weight: bold;
+  color: #bae69c;
 }
 .join-now-header .m--line-4 {
   font-size: 1rem;
+}
+.join-now-header .m--line-5 {
+  font-size: 2rem;
+  margin: 0;
+}
+.join-now-header .m--line-6 {
+  font-size: 2rem;
+  margin: 0;
+}
+.join-now-header .m--line-7 {
+  font-size: 2rem;
+  margin: 0;
+}
+.join-now-header .m--line-8 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.original-price {
+  font-size: 2rem;
+  margin: 0;
 }
 
 .content-panel {
