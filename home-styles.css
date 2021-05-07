@@ -49,6 +49,7 @@
   background-image: url("imgs/ffd.jpg");
   background-size: cover;
   background-position-y: 3%;
+  height: 100vh;
 }
 @media only screen and (max-width: 720px) {
   .content-row {
@@ -117,9 +118,7 @@ footer.container {
 
 @media only screen and (max-width: 720px) {
   .responsive-content {
-    -webkit-box-align: end !important;
-        -ms-flex-align: end !important;
-            align-items: flex-end !important;
+    align-items: flex-end !important;
   }
 
   .content-row.custom {
@@ -144,5 +143,4 @@ footer.container {
 }
 .alternate-background {
   background-color: #e5e5e5;
-}
-/*# sourceMappingURL=home-styles.css.map */
+}/*# sourceMappingURL=home-styles.css.map */
