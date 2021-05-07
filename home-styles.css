@@ -83,6 +83,11 @@ footer.container {
   width: 100%;
   background: #9bc67e;
 }
+.si-button.m--btn-ghost {
+  background: none;
+  border: 1px solid #555555;
+  -webkit-border: 1px solid #555555;
+}
 
 .mobile-img {
   background-repeat: no-repeat;
