@@ -83,6 +83,7 @@ footer.container {
 .si-button {
   width: 98%;
   background: #9bc67e;
+  text-transform: uppercase;
 }
 .si-button.m--btn-ghost {
   background: none;

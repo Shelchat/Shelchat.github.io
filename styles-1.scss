@@ -107,15 +107,15 @@ video[poster] {
          font-size:3.5rem;
         }
         &.m--line-2 {
-            font-size: 2.1rem;
+            font-size: 2.2rem;
             line-height: 1.5rem;
-            left: 18%;
+            left: 15%;
         }
         &.m--line-3{
             font-size:3.6rem;
            }
         &.m--line-4{
-            font-size: 2.2rem;;
+            font-size: 3.7rem;
            }
         &.plus {
             font-weight: bold;
@@ -152,6 +152,7 @@ video[poster] {
     .m--line-5{
         font-size: 2rem;
         margin: 0;
+        font-weight:bold;
     }
     .m--line-6 {
         font-size:2rem;
@@ -170,6 +171,9 @@ video[poster] {
 .original-price {
     font-size:2rem;
     margin:0;
+}
+.promo-price {
+    color:#bae69c;
 }
 .content-panel{
     background-color: rgba(255,255,255,.8) ;
@@ -290,9 +294,6 @@ video[poster] {
     font-weight:normal;
 }
 
-.primary {
-    color: #f6225c;
-}
 .secondary {
     color:#555555;
 }
@@ -302,6 +303,10 @@ video[poster] {
 
 .bg-dark {
     background:#333333;
+}
+
+.lt-text {
+    color:#f1f1f1;
 }
 
 .list-style-none {
@@ -329,6 +334,9 @@ video[poster] {
 .width-95p {
     position: relative;
     width:95%;
+}
+.primary {
+    color: #f6225c;
 }
 @media only screen and (max-width:720px){
     .header-container {
