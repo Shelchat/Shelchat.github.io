@@ -101,7 +101,7 @@ video[poster] {
     &.m--podcast-line-1{
         font-size:2rem;
     }
-     @media screen and (max-width:720px){
+     @media screen and (max-width:768px){
         font-size: 3.3rem;
         &.m--line-1{
          font-size:3.5rem;
@@ -109,7 +109,8 @@ video[poster] {
         &.m--line-2 {
             font-size: 2.2rem;
             line-height: 1.5rem;
-            left: 15%;
+            left: 2.3rem;
+            top: .2rem;;
         }
         &.m--line-3{
             font-size:3.6rem;
@@ -120,10 +121,10 @@ video[poster] {
         &.plus {
             font-weight: bold;
             position: absolute;
-            left: 7%;
             top: 18%;
             font-size: 3rem;
             color: green;
+            left: 1.3rem;
         }
     }
 }
@@ -179,13 +180,13 @@ video[poster] {
     background-color: rgba(255,255,255,.8) ;
     margin:2rem;
     padding:2rem;
-   @media only screen and (max-width:720px){
+   @media only screen and (max-width:769px){
     &.m--mobile-hero{
         position: relative;
         z-index: 10;
         width: 90%;
         padding: 20px;
-        margin: 50% 0 0 0;
+        top:20%;
     }
 }
 
