@@ -80,19 +80,27 @@ video[poster] {
   text-transform: uppercase;
 }
 .hero-statement.m--line-1 {
-  font-size: 2rem;
+  font-size: 5rem;
+}
+.hero-statement.plus {
+  color: green;
+  position: absolute;
+  margin-top: 0;
+  top: 18%;
+  font-size: 6.5rem;
 }
 .hero-statement.m--line-2 {
   position: relative;
-  font-size: 3.5rem;
+  font-size: 2.9rem;
+  left: 92px;
 }
 .hero-statement.m--line-3 {
   font-size: 2.7rem;
   margin-top: 0px;
 }
 .hero-statement.m--line-4 {
-  font-size: 1.4rem;
-  margin: 0;
+  font-size: 5.4rem;
+  line-height: 5.5rem;
 }
 .hero-statement.m--pre-header-text {
   font-size: 2rem;
@@ -208,9 +216,21 @@ video[poster] {
 }
 
 .content-panel {
+  position: relative;
   background-color: rgba(255, 255, 255, 0.8);
   margin: 2rem;
+  margin-top: 38%;
   padding: 2rem;
+}
+@media only screen and (min-wdth: 1020px) {
+  .content-panel {
+    max-width: 25%;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .content-panel {
+    max-width: 70%;
+  }
 }
 @media only screen and (max-width: 720px) {
   .content-panel.m--mobile-hero {
