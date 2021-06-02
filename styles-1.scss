@@ -72,20 +72,31 @@ video[poster] {
     text-transform: uppercase;
    
     &.m--line-1 {
-        font-size:2rem;
+       // font-size:2rem;
+       font-size:5rem;
     }
+    &.plus {
+        color: green;
+        position: absolute;
+        margin-top: 0;
+        top: 18%;
+        font-size: 6.5rem;
+    }
+
     &.m--line-2{
         position:relative;
-        font-size: 3.5rem;
-       
+        font-size: 2.9rem;
+        left: 92px;
     }
+
     &.m--line-3{
         font-size: 2.7rem;
         margin-top: 0px;
     }
     &.m--line-4 {
-        font-size:1.4rem;
-        margin:0;
+        font-size: 5.4rem;
+        //margin: 0;
+        line-height: 5.5rem;
     }
 
     &.m--pre-header-text{
@@ -129,6 +140,28 @@ video[poster] {
     }
 }
 
+.ffd-page-hero-statement {
+    margin:0;
+    @media screen and (max-width:720px){
+        &.m--line-1{
+            font-size:1.5rem;
+        }
+        &.m--line-2 {
+            font-size:1.7rem;
+        }
+        &.m--line-3 {
+            font-size:1.7rem;
+        }
+        &.m--motto {
+            font-size:1.25rem;
+            color:green;
+        }
+        &.m--statement {
+            font-size:1rem;
+        }
+    }
+
+}
 .join-now-header {
     background:#333333;
     color:#f1f1f1;
@@ -177,10 +210,22 @@ video[poster] {
     color:#bae69c;
 }
 .content-panel{
+    position:relative;
     background-color: rgba(255,255,255,.8) ;
     margin:2rem;
+    margin-top:38%;
     padding:2rem;
+<<<<<<< HEAD
    @media only screen and (max-width:769px){
+=======
+    @media only screen and (min-wdth:1020px){
+        max-width:25%;
+    }
+    @media only screen and (min-width:1000px){
+        max-width:70%;
+    }
+   @media only screen and (max-width:720px){
+>>>>>>> 8bffc259e13598f6e2508f60c3202d7ded1aeac1
     &.m--mobile-hero{
         position: relative;
         z-index: 10;
@@ -189,6 +234,7 @@ video[poster] {
         top:20%;
     }
 }
+
 
     &_header{
         font-size:5vw;

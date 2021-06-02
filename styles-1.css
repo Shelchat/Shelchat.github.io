@@ -4,10 +4,16 @@ body {
 
 .hero {
   position: relative;
-  align-items: center;
+  -ms-flex-align: center;
+      align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
   align-items: center;
-  justify-content: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+      justify-content: center;
   padding: 1.15rem;
   padding-top: 74px;
   padding-bottom: 66px;
@@ -37,7 +43,8 @@ body {
 }
 
 video[poster] {
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   width: 100%;
   height: 100%;
 }
@@ -73,19 +80,27 @@ video[poster] {
   text-transform: uppercase;
 }
 .hero-statement.m--line-1 {
-  font-size: 2rem;
+  font-size: 5rem;
+}
+.hero-statement.plus {
+  color: green;
+  position: absolute;
+  margin-top: 0;
+  top: 18%;
+  font-size: 6.5rem;
 }
 .hero-statement.m--line-2 {
   position: relative;
-  font-size: 3.5rem;
+  font-size: 2.9rem;
+  left: 92px;
 }
 .hero-statement.m--line-3 {
   font-size: 2.7rem;
   margin-top: 0px;
 }
 .hero-statement.m--line-4 {
-  font-size: 1.4rem;
-  margin: 0;
+  font-size: 5.4rem;
+  line-height: 5.5rem;
 }
 .hero-statement.m--pre-header-text {
   font-size: 2rem;
@@ -126,6 +141,28 @@ video[poster] {
     font-size: 3rem;
     color: green;
     left: 1.3rem;
+  }
+}
+
+.ffd-page-hero-statement {
+  margin: 0;
+}
+@media screen and (max-width: 720px) {
+  .ffd-page-hero-statement.m--line-1 {
+    font-size: 1.5rem;
+  }
+  .ffd-page-hero-statement.m--line-2 {
+    font-size: 1.7rem;
+  }
+  .ffd-page-hero-statement.m--line-3 {
+    font-size: 1.7rem;
+  }
+  .ffd-page-hero-statement.m--motto {
+    font-size: 1.25rem;
+    color: green;
+  }
+  .ffd-page-hero-statement.m--statement {
+    font-size: 1rem;
   }
 }
 
@@ -180,11 +217,27 @@ video[poster] {
 }
 
 .content-panel {
+  position: relative;
   background-color: rgba(255, 255, 255, 0.8);
   margin: 2rem;
+  margin-top: 38%;
   padding: 2rem;
 }
+<<<<<<< HEAD
 @media only screen and (max-width: 769px) {
+=======
+@media only screen and (min-wdth: 1020px) {
+  .content-panel {
+    max-width: 25%;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .content-panel {
+    max-width: 70%;
+  }
+}
+@media only screen and (max-width: 720px) {
+>>>>>>> 8bffc259e13598f6e2508f60c3202d7ded1aeac1
   .content-panel.m--mobile-hero {
     position: relative;
     z-index: 10;
@@ -367,11 +420,15 @@ video[poster] {
   }
 
   .mobile-order-1 {
-    order: 1;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
   }
 
   .mobile-order-2 {
-    order: 2;
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
   }
 
   .mobile-margin-t2 {
@@ -397,4 +454,5 @@ video[poster] {
   .cover {
     display: none;
   }
-}/*# sourceMappingURL=styles-1.css.map */
+}
+/*# sourceMappingURL=styles-1.css.map */
