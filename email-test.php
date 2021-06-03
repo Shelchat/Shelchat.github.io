@@ -1,6 +1,6 @@
 <?php
 
-$to="$_POST['email']";
+$to=$_POST['email'];
 $subject = "Wake Up! Get Fit For Destiny";
 
 $message = '
