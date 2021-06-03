@@ -215,9 +215,7 @@ video[poster] {
     margin:2rem;
     margin-top:38%;
     padding:2rem;
-<<<<<<< HEAD
-   @media only screen and (max-width:769px){
-=======
+    z-index:2;
     @media only screen and (min-wdth:1020px){
         max-width:25%;
     }
@@ -225,7 +223,6 @@ video[poster] {
         max-width:70%;
     }
    @media only screen and (max-width:720px){
->>>>>>> 8bffc259e13598f6e2508f60c3202d7ded1aeac1
     &.m--mobile-hero{
         position: relative;
         z-index: 10;
