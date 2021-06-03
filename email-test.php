@@ -1,8 +1,7 @@
 <?php
-//$to = "steven.schafle@amtrustgroup.com";
 
-$to="steven.schafle@amtrustfinancial.com";
-$subject = "HTML email";
+$to="$_POST['email']";
+$subject = "Wake Up! Get Fir For Destiny";
 
 $message = '
 <!doctype html>
@@ -232,7 +231,7 @@ $headers = "MIME-Version: 1.0" . "\r\n";
 $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 
 // More headers
-$headers .= 'From: <contact@scicreative.com>' . "\r\n";
+$headers .= 'From: <shel@shelinspires.com>' . "\r\n";
 
 
 mail($to,$subject,$message,$headers);
