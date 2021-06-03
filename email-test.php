@@ -234,5 +234,13 @@ $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 $headers .= 'From: <shel@shelinspires.com>' . "\r\n";
 
 
-mail($to,$subject,$message,$headers);
+if(mail($to,$subject,$message,$headers)){
+    echo "sent";
+
+}
+else{
+    echo"not sent";
+};
+
+
 ?>
