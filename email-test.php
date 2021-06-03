@@ -1,7 +1,7 @@
 <?php
 
 $to="$_POST['email']";
-$subject = "Wake Up! Get Fir For Destiny";
+$subject = "Wake Up! Get Fit For Destiny";
 
 $message = '
 <!doctype html>
