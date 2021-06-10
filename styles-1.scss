@@ -213,7 +213,7 @@ video[poster] {
     position:relative;
     background-color: rgba(255,255,255,.8) ;
     margin:2rem;
-    margin-top:38%;
+    margin-top:28%;
     padding:2rem;
     z-index:2;
     @media only screen and (min-wdth:1020px){
@@ -421,4 +421,12 @@ video[poster] {
     .cover {
         display:none;
     }
+}
+
+/*Mail Chimp Form*/
+#mc_embed_signup{
+    background:none!important;
+}
+.mc-signup-custom {
+    background:none;
 }
