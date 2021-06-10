@@ -49,7 +49,10 @@
         background-image: url("imgs/ffd.jpg");
         background-size: cover;
         background-position-y: 3%;
-        height:100vh;
+        //height:100vh;
+        @media only screen and (max-width:790px){
+            height:100vh;
+        }
     }
     @media only screen and (max-width:720px){
         background-image:none;
@@ -78,8 +81,11 @@ footer {
 
 .si-button {
     width:100%;
-    background: #9bc67e;
+    //background: #9bc67e;
+    //background: #2ba947;
+    background:#75dc8c;
     text-transform:uppercase;
+    color:#ffffff;
    // #7eb559
    //#88c162
    //#2f3e59
@@ -88,8 +94,12 @@ footer {
        background:none;
        border:1px solid #555555;
        -webkit-border: 1px solid #555555;
-
+       color:#2ba947;
+       &:hover{
+        color:#2ba947;
+    }
    }
+ 
 }
 
 .mobile-img {

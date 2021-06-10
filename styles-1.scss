@@ -73,7 +73,7 @@ video[poster] {
    
     &.m--line-1 {
        // font-size:2rem;
-       font-size:5rem;
+       font-size:5.2rem;
     }
     &.plus {
         color: green;
@@ -85,8 +85,8 @@ video[poster] {
 
     &.m--line-2{
         position:relative;
-        font-size: 2.9rem;
-        left: 92px;
+        font-size: 3.2rem;
+       
     }
 
     &.m--line-3{
@@ -120,7 +120,6 @@ video[poster] {
         &.m--line-2 {
             font-size: 2.2rem;
             line-height: 1.5rem;
-            left: 2.3rem;
             top: .2rem;;
         }
         &.m--line-3{
@@ -232,10 +231,9 @@ video[poster] {
     }
 }
 
-
     &_header{
         font-size:5vw;
-        color:purple;
+        color:#f6225c;
         @media only screen and (max-width:720px){
             color:#f1f1f1;
             font-size:4rem;
@@ -342,7 +340,7 @@ video[poster] {
     color:#555555;
 }
 .tertiary {
-    color:green;
+    color:#2ba947;
 }
 
 .bg-dark {
@@ -381,6 +379,9 @@ video[poster] {
 }
 .primary {
     color: #f6225c;
+}
+.bg-tertiary {
+    background:#cdddc2;
 }
 @media only screen and (max-width:720px){
     .header-container {
@@ -429,4 +430,8 @@ video[poster] {
 }
 .mc-signup-custom {
     background:none;
+}
+
+input[type=submit] {
+    font-weight:bold;
 }

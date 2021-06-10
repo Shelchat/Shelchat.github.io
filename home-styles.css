@@ -49,7 +49,11 @@
   background-image: url("imgs/ffd.jpg");
   background-size: cover;
   background-position-y: 3%;
-  height: 100vh;
+}
+@media only screen and (max-width: 790px) {
+  .content-row.m--pray-sweat-learn-change {
+    height: 100vh;
+  }
 }
 @media only screen and (max-width: 720px) {
   .content-row {
@@ -82,13 +86,18 @@ footer.container {
 
 .si-button {
   width: 100%;
-  background: #9bc67e;
+  background: #75dc8c;
   text-transform: uppercase;
+  color: #ffffff;
 }
 .si-button.m--btn-ghost {
   background: none;
   border: 1px solid #555555;
   -webkit-border: 1px solid #555555;
+  color: #2ba947;
+}
+.si-button.m--btn-ghost:hover {
+  color: #2ba947;
 }
 
 .mobile-img {
@@ -124,7 +133,9 @@ footer.container {
 
 @media only screen and (max-width: 720px) {
   .responsive-content {
-    align-items: flex-end !important;
+    -webkit-box-align: end !important;
+        -ms-flex-align: end !important;
+            align-items: flex-end !important;
   }
 
   .content-row.custom {
@@ -149,4 +160,5 @@ footer.container {
 }
 .alternate-background {
   background-color: #e5e5e5;
-}/*# sourceMappingURL=home-styles.css.map */
+}
+/*# sourceMappingURL=home-styles.css.map */
