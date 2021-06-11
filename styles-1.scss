@@ -153,7 +153,6 @@ video[poster] {
         }
         &.m--motto {
             font-size:1.25rem;
-            color:green;
         }
         &.m--statement {
             font-size:1rem;
@@ -200,6 +199,13 @@ video[poster] {
         font-weight: bold;
         margin: 0;
     }
+    .m--free{
+        background:#353d53;
+    }
+}
+
+.accent-bg {
+    background:#353d53;
 }
 .original-price {
     font-size:2rem;

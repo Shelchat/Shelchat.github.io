@@ -157,7 +157,6 @@ video[poster] {
   }
   .ffd-page-hero-statement.m--motto {
     font-size: 1.25rem;
-    color: green;
   }
   .ffd-page-hero-statement.m--statement {
     font-size: 1rem;
@@ -203,6 +202,13 @@ video[poster] {
   font-size: 2.5rem;
   font-weight: bold;
   margin: 0;
+}
+.join-now-header .m--free {
+  background: #353d53;
+}
+
+.accent-bg {
+  background: #353d53;
 }
 
 .original-price {
